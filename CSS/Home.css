@@ -1,0 +1,113 @@
+* {
+    background-color: #232f57;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    /*background: url("../Images/Wave.svg") no-repeat center;*/
+}
+
+header {
+    background-color: #2f3f75;
+    overflow: hidden;
+    position: static;
+    top: 0;
+}
+
+header * {
+    background-color: #2f3f75;
+    margin: 0;
+    padding: 0;
+}
+
+#search, .header a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+#search {
+    background-image: url("../Images/Search.png");
+    background-repeat: no-repeat;
+    background-position: right 5% center;
+    background-size: 30px 30px;
+    text-align: left;
+}
+
+.header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border: none;
+}
+
+.header a:hover {
+    background-color: #506093;
+    color: black;
+}
+
+.header a.active {
+    background-color: #506093;
+    color: white;
+}
+
+.header-left * {
+    float: left;
+}
+
+.header-left h1 {
+    margin: 0;
+    font-size: 26px;
+    line-height: 50px;
+    padding: 0 0 0 15px;
+}
+
+.header-right {
+    float: right;
+    margin-top: 12px;
+}
+
+.header-right * {
+    margin-left: 10px;
+}
+
+#search {
+    border: 1px solid #506093;
+    background-color: rgba(0, 0, 0, 0.5);
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .header a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .header-right {
+        float: none;
+    }
+}
+
+footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #1c2546;
+}
